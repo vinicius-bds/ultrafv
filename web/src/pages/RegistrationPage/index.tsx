@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import arrowLeftIcon from '../../assets/icons/arrow-left.svg'
+import { Dropzone } from '../../components/Dropzone'
 import './styles.css'
 
 export const RegistrationPage = () => {
@@ -14,6 +15,7 @@ export const RegistrationPage = () => {
                     <h1>Formulário de cadastro</h1>
                     <legend>Preencha todos os dados para cadastrar-se.</legend>
                     <fieldset>
+                        <Dropzone/>
                         <div className="input-block">
                             <label htmlFor="name">Nome completo</label>
                             <input type="text" name="text" id="text" required/>
