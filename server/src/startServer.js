@@ -1,4 +1,5 @@
 import { ApolloServer } from "apollo-server"
+import "./utils/connection"
 
 export const startServer = ({ typeDefs, resolvers }) => {
     const server = new ApolloServer({ typeDefs, resolvers })

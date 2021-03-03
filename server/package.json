@@ -12,9 +12,7 @@
   "dependencies": {
     "apollo-server": "^2.21.0",
     "graphql": "^15.5.0",
-    "knex": "^0.21.19",
-    "merge-graphql-schemas": "^1.7.0",
-    "pg": "^8.5.1"
+    "mongoose": "^5.11.18"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
